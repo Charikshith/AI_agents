@@ -9,5 +9,7 @@
 
 
 # Next tasks
-|Todo | Topic | Link |
+
+**Todo | Topic | Link |**
+| :--- | :---:      |  ---: |
 | Aishwarya N | Agents- Projects | [Link](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/resources/gen_ai_projects.md) |
