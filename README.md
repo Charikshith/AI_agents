@@ -10,6 +10,6 @@
 
 # Next tasks
 
-| Left-aligned | Center-aligned | Right-aligned |
+| Title | Description | Link |
 | :---         |     :---:      |          ---: |
 | Aishwarya N | Agents- Projects | [Link](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/resources/gen_ai_projects.md) |
