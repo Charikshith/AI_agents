@@ -19,3 +19,8 @@
 1. [The Ultra-Scale Playbook:
 Training LLMs on GPU Clusters](https://huggingface.co/spaces/nanotron/ultrascale-playbook?section=high_level_overview)
 2. [vLLM](https://github.com/vllm-project/vllm)
+
+
+
+# Tips 
+1. [Code_cheats](https://calmcode.io)
