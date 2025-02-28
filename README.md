@@ -13,3 +13,9 @@
 | Title | Description | Link |
 | :---         |     :---:      |          ---: |
 | Aishwarya N | Agents- Projects | [Link](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/resources/gen_ai_projects.md) |
+
+
+# GPU 
+1. [The Ultra-Scale Playbook:
+Training LLMs on GPU Clusters](https://huggingface.co/spaces/nanotron/ultrascale-playbook?section=high_level_overview)
+2. [vLLM](https://github.com/vllm-project/vllm)
