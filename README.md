@@ -21,6 +21,9 @@ Training LLMs on GPU Clusters](https://huggingface.co/spaces/nanotron/ultrascale
 2. [vLLM](https://github.com/vllm-project/vllm)
 
 
+# N8N
+1. [AI Workshop](https://www.youtube.com/@AI-GPTWorkshop)
 
 # Tips 
 1. [Code_cheats](https://calmcode.io)
+
