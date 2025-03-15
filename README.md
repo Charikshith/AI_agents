@@ -1,17 +1,6 @@
 # 👨🏻‍💻 LLM Engineer Toolkit 
 This repository contains a curated list of 120+ LLM libraries category wise.
-<p align="center">
-  <a href="https://www.linkedin.com/in/kalyanksnlp/">
-    <img src="https://custom-icon-badges.demolab.com/badge/Kalyan%20KS-0A66C2?logo=linkedin-white&logoColor=fff" alt="LinkedIn">
-  </a>
-  <a href="https://x.com/kalyan_kpl">
-    <img src="https://img.shields.io/badge/Kalyan%20KS-%23000000.svg?logo=X&logoColor=white" alt="Twitter">
-  </a>
-   <a href="https://www.youtube.com/@kalyanksnlp">
-    <img src="https://img.shields.io/badge/Kalyan%20KS-%23FF0000.svg?logo=YouTube&logoColor=white" alt="Twitter">
-  </a>
-	
-</p>
+
 
 ## Quick links
 ||||
