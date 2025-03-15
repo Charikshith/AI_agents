@@ -85,6 +85,7 @@ This repository contains a curated list of 120+ LLM libraries category wise.
 | Library        | Description                                                                                               | Link  |
 |--------------|------------------------------------------------------------------------------------------------------|-------|
 | LangFlow     | LangFlow is a low-code app builder for RAG and multi-agent AI applications. It’s Python-based and agnostic to any model, API, or database.                           | [Link](https://github.com/langflow-ai/langflow) |
+| n8n          | n8n is a low-code automation tool that allows users to create complex workflows by connecting various applications and services. It offers both self-hosted and cloud-hosted options, with a visual interface.                           | [Link](https://github.com/n8n-io/n8n) |
 
 <p align = "center"> <b> Cache </b> </p>
 
