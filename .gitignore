@@ -1,2 +1,29 @@
 *.env
 /*/.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+
+# IDE/Editor specific
+.idea/
+*.swp
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# Compiled output (if applicable)
+dist/
+build/
