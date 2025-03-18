@@ -1,4 +1,5 @@
-# OpenAI Responses API
+# OpenAI Responses API ( All credit to  @Dave Ebbelaar)
+
 
 ## What we will cover
 
