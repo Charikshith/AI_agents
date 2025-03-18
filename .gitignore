@@ -27,3 +27,5 @@ venv/
 # Compiled output (if applicable)
 dist/
 build/
+
+/*/temp/
