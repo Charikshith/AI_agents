@@ -1,0 +1,1 @@
+This is a sample text that will be summarized by the LLM. It contains a few sentences to demonstrate the summarization process. The goal is to condense this text into a shorter version, approximately 50 words in length, while retaining the core meaning and key information.
