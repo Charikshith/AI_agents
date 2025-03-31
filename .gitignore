@@ -28,5 +28,5 @@ venv/
 dist/
 build/
 
-/*/temp/
+*/*/temp
 */*/db
