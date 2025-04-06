@@ -1,6 +1,4 @@
-Explana about  `@staticmethod` and `@classmethod` ?
 
-```markdown
 ## Understanding `@staticmethod` and `@classmethod` in Python
 
 Both `@staticmethod` and `@classmethod` are decorators in Python. Decorators modify the behavior of a function or method. In this case, they change how methods within a class relate to the class itself and its instances.
@@ -137,4 +135,4 @@ In this example:
 In the original `ScheduleContextGenerator` example, both methods `get_current_activity` and `get_schedule_for_day` are decorated as class methods because they access the `SCHEDULES` dictionary, which is a class-level attribute. They don't need to operate on specific instances of the class, but they do need to access the class's schedule data. `_parse_time_range` is decorated as static method because it doesnt operate on any class or instance attributes.
 
 By understanding these distinctions, you can effectively use `@staticmethod` and `@classmethod` to create well-organized, maintainable, and flexible code in your Python classes.
-```
+
