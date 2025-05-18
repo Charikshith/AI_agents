@@ -18,3 +18,9 @@
 
 # Your custom A2A server class
 from server.server import A2AServer
+
+# Models for describing agent capabilities and metadata
+from models.agent import AgentCard, AgentCapabilities, AgentSkill
+
+# Task Manager and agent logic
+
