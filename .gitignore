@@ -1,4 +1,6 @@
 *.env
+*.aider
+*aider
 /*/.env
 
 # OS generated files
@@ -31,3 +33,4 @@ build/
 
 */*/temp
 */*/db
+.aider*
