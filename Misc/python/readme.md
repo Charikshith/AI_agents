@@ -1,5 +1,92 @@
+# Structural Typing (Duck Typing) vs ABC (Nominal Typing) in Python
 
-## Understanding `@staticmethod` and `@classmethod` in Python
+## Structural Typing (Duck Typing)
+
+- **Definition:**  
+  Structural typing means an object is considered suitable if it has the required methods and properties, regardless of its actual class or inheritance.
+- **Famous saying:**  
+  “If it looks like a duck and quacks like a duck, it’s a duck.”
+
+### Example
+
+```python
+class Duck:
+    def quack(self):
+        print("Quack!")
+
+class Person:
+    def quack(self):
+        print("I'm pretending to be a duck!")
+
+def make_it_quack(thing):
+    thing.quack()  # Works as long as 'thing' has a 'quack' method
+
+make_it_quack(Duck())    # Output: Quack!
+make_it_quack(Person())  # Output: I'm pretending to be a duck!
+```
+
+- **Key Point:**  
+  No inheritance is required. Any object with a `quack` method will work.
+
+---
+
+## ABC (Abstract Base Class) - Nominal Typing
+
+- **Definition:**  
+  Nominal typing means an object is considered suitable only if it explicitly inherits from a specific base class (the "name" of the type matters).
+- **Enforced by:**  
+  Using `abc.ABC` and `@abstractmethod` decorators.
+
+### Example
+
+```python
+from abc import ABC, abstractmethod
+
+class Quacker(ABC):
+    @abstractmethod
+    def quack(self):
+        pass
+
+class Duck(Quacker):
+    def quack(self):
+        print("Quack!")
+
+class Person:
+    def quack(self):
+        print("I'm pretending to be a duck!")
+
+def make_it_quack(thing: Quacker):
+    thing.quack()
+
+make_it_quack(Duck())    # Output: Quack!
+make_it_quack(Person())  # Type checker will warn/error; not a Quacker
+```
+
+- **Key Point:**  
+  Only objects that inherit from `Quacker` are accepted, even if others have the right method.
+
+---
+
+## Summary Table
+
+| Feature                | Structural Typing (Duck Typing) | ABC (Nominal Typing)      |
+|------------------------|----------------------------------|---------------------------|
+| Inheritance required?  | No                               | Yes                       |
+| Type checked by        | Methods/attributes present       | Explicit base class       |
+| Flexibility            | High                             | Lower                     |
+| Example use            | Protocols, dynamic code          | Strict interfaces, APIs   |
+
+---
+
+## When to Use Each
+
+- **Structural Typing:**  
+  Use when you want flexibility and care only about whether the object has the right methods.
+
+- **ABC (Nominal Typing):**  
+  Use when you want strict type hierarchies and runtime enforcement of interfaces.
+
+# Understanding `@staticmethod` and `@classmethod` in Python
 
 Both `@staticmethod` and `@classmethod` are decorators in Python. Decorators modify the behavior of a function or method. In this case, they change how methods within a class relate to the class itself and its instances.
 
