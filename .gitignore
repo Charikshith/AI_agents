@@ -5,6 +5,7 @@
 /*/mlruns
 /*/*.db
 
+mlflow.db
 # OS generated files
 .DS_Store
 Thumbs.db
